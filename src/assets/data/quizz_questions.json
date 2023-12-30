@@ -1,55 +1,127 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Descubra Sua Profissão Ideal com Base no Seu Estilo de Trabalho!",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Como você prefere organizar seu dia de trabalho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Com uma agenda estruturada e planos detalhados",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Deixando espaço para flexibilidade e improvisação",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Realizando tarefas variadas e multitarefa",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Focando em uma tarefa por vez até a conclusão",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Como você lida com desafios no trabalho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Analisando detalhadamente e buscando soluções práticas",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Procurando diferentes perspectivas e abordagens inovadoras",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Agindo rapidamente e resolvendo problemas de maneira eficiente",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Mantendo a calma e enfrentando os desafios de forma metódica",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "O que mais motiva você no ambiente de trabalho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Realizar metas e alcançar resultados tangíveis",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Contribuir para a inovação e criatividade",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Trabalhar em equipe e colaborar com colegas",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Desenvolver expertise em uma área específica",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Como você prefere receber feedback no trabalho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Feedback detalhado e orientações específicas",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Feedback que destaca a criatividade e originalidade",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Feedback regular e interações sociais",
+          "alias": "A"
+        },
+        { "id": 4, "name": "Feedback equilibrado e construtivo", "alias": "B" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual ambiente de trabalho você prefere?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Escritório organizado e estruturado",
+          "alias": "A"
+        },
+        { "id": 2, "name": "Espaço aberto e colaborativo", "alias": "B" },
+        {
+          "id": 3,
+          "name": "Ambiente dinâmico e em constante movimento",
+          "alias": "A"
+        },
+        { "id": 4, "name": "Local tranquilo e focado", "alias": "B" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Sua profissão ideal está relacionada a trabalhos mais analíticos e estruturados, como engenheiro, contador ou gerente de projeto!",
+    "B": "Você se encaixaria bem em profissões mais criativas e inovadoras, como designer, escritor ou empreendedor!"
   }
 }
